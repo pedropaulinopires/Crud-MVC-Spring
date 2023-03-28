@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+.table{
+    display: none;
+}
+
+.teachersTable a:not(:last-child){
+    margin-right: 1rem
+}
+.teachersTable{
+    width: 80%;
+    max-width: 800px;
+    margin: auto;
+
+}
+
+.teachersTable th,td{
+    text-align: center;
+}
+
+.formTeacher{
+    width: 80%;
+    max-width: 800px;
+    margin: auto;
+    margin-top:120px;
+}
+
+.alert{
+    text-align: center;
+    display: none;
+    opacity: 0;
+}
+
+.showComponent{
+    display: block;
+    opacity: 1;
+    transition: opacity 3s;
+}
