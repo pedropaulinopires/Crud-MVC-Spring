@@ -115,7 +115,7 @@ public class TeacherController {
     }
 
     @ModelAttribute(value = "teacherRequest")
-    public TeacherRequest getTeacherPostRequest() {
+    public TeacherRequest getTeacherRequest() {
         return new TeacherRequest();
     }
 
